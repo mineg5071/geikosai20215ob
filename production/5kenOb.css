@@ -1,0 +1,107 @@
+.goObbody {
+  font-family: sans-serif;
+  /* width: 90%; */
+  margin: auto;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background-color: #d3cecb;
+}
+.goObTitle {
+  margin: 0;
+  position: relative;
+  color: #4c3b42;
+}
+.goObSubTitle {
+  font-family: cursive;
+  position: absolute;
+  margin: 0;
+  color: #0a9bd5;
+}
+.goObMidashiWrap {
+  margin: 4% 5% 0;
+}
+.goObMidashi {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #443b33;
+  display: flex;
+  align-items: center;
+}
+.goObMidashi:before,
+.goObMidashi:after {
+  content: "";
+  height: 4px;
+  flex-grow: 1;
+}
+
+.goObMidashi:before {
+  margin-right: 1rem;
+  background: linear-gradient(-90deg, #443b33, transparent);
+}
+
+.goObMidashi:after {
+  margin-left: 1rem;
+  background: linear-gradient(90deg, #443b33, transparent);
+}
+.goObflexContent {
+  margin: 1%;
+  padding: 2%;
+  background: linear-gradient(-135deg, #e4a972, #d8aef7);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.goObflexContent:hover {
+  filter: hue-rotate(306deg);
+}
+.goObflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.goObwp {
+  margin-bottom: 1rem;
+}
+.goObWorkTitle {
+  font-size: 1.3rem;
+  color: #f7ece7;
+  font-weight: bold;
+}
+.goObWorkInfo {
+  color: #f7ece7;
+  font-size: 1rem;
+  margin: 0 0 0.5rem;
+}
+@media screen and (max-width: 767px) {
+  .goObTitle {
+    font-size: 4rem;
+  }
+  .goObSubTitle {
+    font-size: 2.5rem;
+    top: 3rem;
+    right: 25%;
+  }
+  .goObflexContentWp {
+    width: 40%;
+  }
+  .goObflexContentNp {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .goObTitle {
+    font-size: 7rem;
+  }
+  .goObSubTitle {
+    font-size: 3.5rem;
+    top: 6rem;
+    right: 34%;
+  }
+  .goObflexContentWp {
+    width: 15%;
+  }
+  .goObflexContentNp {
+    width: 30%;
+  }
+}
