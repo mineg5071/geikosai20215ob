@@ -20,6 +20,9 @@
   margin: 0;
   color: #0a9bd5;
 }
+.goObdesc {
+  font-size: 1rem;
+}
 .goObMidashiWrap {
   margin: 4% 5% 0;
 }
@@ -108,12 +111,23 @@ a.goObbtn-malformation {
 
   color: #fff;
   border-radius: 100% 80px / 80px 100%;
-  background-color: #eb6100;
+  background-color: #0d9bd5;
 }
 
 a.goObbtn-malformation:hover {
   color: #fff;
   border-radius: 60% 80% / 100% 80%;
+}
+.goObFooter {
+  font-size: 1.5rem;
+  margin: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.goObFooterA {
+  text-decoration: none;
+  color: #4b3b42;
 }
 @media screen and (max-width: 767px) {
   .goObTitle {
@@ -139,15 +153,32 @@ a.goObbtn-malformation:hover {
   }
   .goObg2 {
     top: 53rem;
-    left: 0;
-    width: 17rem;
+    left: -13%;
+    width: 38%;
     transform: rotateZ(355deg);
   }
   .goObg3 {
     top: 83rem;
-    right: -6.5rem;
+    right: -9.5rem;
     width: 19rem;
     transform: rotateZ(20deg);
+  }
+  .goObg4 {
+    top: 162rem;
+    right: -2.5rem;
+    width: 30%;
+    transform: rotateZ(20deg);
+  }
+  .goObg5 {
+    top: 180rem;
+    left: -5rem;
+    width: 15rem;
+    transform: rotateZ(344deg);
+  }
+  .goObg6 {
+    top: 219rem;
+    right: 0;
+    width: 5rem;
   }
 }
 @media screen and (min-width: 768px) {
@@ -182,5 +213,25 @@ a.goObbtn-malformation:hover {
     right: -6.5rem;
     width: 20rem;
     transform: rotateZ(20deg);
+  }
+  .goObg4 {
+    top: 121rem;
+    left: -1rem;
+    width: 11rem;
+    margin: auto;
+    transform: rotateZ(343deg);
+  }
+  .goObg5 {
+    top: 146rem;
+    right: -2rem;
+    width: 12rem;
+    transform: rotateZ(19deg);
+  }
+  .goObg6 {
+    top: 116rem;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 6rem;
   }
 }
