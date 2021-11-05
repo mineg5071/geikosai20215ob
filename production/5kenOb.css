@@ -22,6 +22,11 @@
 }
 .goObdesc {
   font-size: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  color: #443b33;
 }
 .goObMidashiWrap {
   margin: 4% 5% 0;
@@ -81,6 +86,12 @@
   font-size: 1rem;
   margin: 0 0 0.5rem;
 }
+.goObValidDate {
+  color: #f7ece7;
+  font-size: 0.7rem;
+  text-align: right;
+  margin: 0.5rem 0 0;
+}
 .goObRelative {
   position: relative;
 }
@@ -127,6 +138,8 @@ a.goObbtn-malformation:hover {
 }
 .goObFooterA {
   text-decoration: none;
+}
+a {
   color: #4b3b42;
 }
 @media screen and (max-width: 767px) {
@@ -228,7 +241,7 @@ a.goObbtn-malformation:hover {
     transform: rotateZ(19deg);
   }
   .goObg6 {
-    top: 116rem;
+    bottom: 16rem;
     right: 0;
     left: 0;
     margin: auto;
